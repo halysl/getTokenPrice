@@ -10,22 +10,4 @@ Supply to tg-bot.
 $ get-token-price --help
 $ get-token-price --token-pairs BTC-USD(,FIL-USD) --format txt
 $ get-token-price --token-pairs BTC-USD(,FIL-USD) --format json 
-// $ get-token-price --file ./tokens.json --format txt
-// $ get-token-price --file ./tokens.json --format json
 ```
-
-## tokens.json
-
-```json
-[
-  {
-    "token_pair": "BTC-USDT",
-    "format": "txt"
-  },
-  {
-    "token_pair": "ETH-USDT",
-    "format": "json"
-  }
-]
-```
-g
